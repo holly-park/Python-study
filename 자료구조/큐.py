@@ -1,0 +1,17 @@
+q=list()
+q.append("A")
+q.append("B")
+q.append("C")
+q.append("D")
+q.append("E")
+q.append("F")
+
+print("peek", q[0])
+print(q.pop(0))
+print(q.pop(0))
+print(q.pop(0))
+print(q.pop(0))
+print(q.pop(0))
+print(q.pop(0))
+
+print("큐크기: ", len(q))
